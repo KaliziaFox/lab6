@@ -54,6 +54,7 @@ sudo apt-get install cmake
 
 Создаю директорию "formatter_lib" и перехожу в неё:
 
+```
 mkdir formatter_lib
 cd formatter_lib
 ```
