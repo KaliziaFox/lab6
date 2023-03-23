@@ -31,7 +31,7 @@ git config --global user.name ${GITHUB_USERNAME}
 git config --global user.email ${GITHUB_EMAIL}
 ```
 
-Создаю папку lab03 внутри папки projects и переходим в неё:
+Создаю папку lab03 внутри папки projects и перехожу в неё:
 ```
 mkdir lab03
 cd lab03
@@ -52,7 +52,7 @@ git remote add origin https://github.com/${GITHUB_USERNAME}/lab03.git
 sudo apt-get install cmake
 ```
 
-Создаю директорию "formatter_lib" и переходим в неё:
+Создаю директорию "formatter_lib" и перехожу в неё:
 
 mkdir formatter_lib
 cd formatter_lib
@@ -64,7 +64,7 @@ wget https://raw.githubusercontent.com/tp-labs/lab03/master/formatter_lib/format
 wget https://raw.githubusercontent.com/tp-labs/lab03/master/formatter_lib/formatter.cpp
 ```
 
-Создаю и наполняем файл CMakeLists.txt:
+Создаю и наполняю файл CMakeLists.txt:
 ```
 nano CMakeLists.txt
 ```
@@ -85,27 +85,28 @@ set(HEADERS ~/projects/lab03/formatter_lib/formatter.h)
 
 //Сборка статической библиотеки "formatter":
 add_library(formatter STATIC ${SOURCES} ${HEADERS})
-Добавим упорядоченное дерево в путь поиска для включенных файлов:
+
+//Добавим упорядоченное дерево в путь поиска для включенных файлов:
 target_include_directories(formatter PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
 ```
-Проверим корректность заполнения CMakeLists.txt и найдём полный путь до файла:
+Проверяю корректность заполнения CMakeLists.txt и нахожу полный путь до файла:
 cmake -H. -B_build
 
 ### Part 2
-Создаём директорию "formatter_ex_lib" и переходим в неё:
+Создаю директорию "formatter_ex_lib" и перехожу в неё:
 
 ```
 mkdir formatter_ex_lib
 cd formatter_ex_lib
 ```
 
-Загружаем файлы "formatter_ex.h" и "formatter_ex.cpp" из сети (ссылка типа raw при переходе в файл в репозитории. Необходима для корректного формата файла):
+Загружаю файлы "formatter_ex.h" и "formatter_ex.cpp" из сети (ссылка типа raw при переходе в файл в репозитории. Необходима для корректного формата файла):
 ```
 wget https://raw.githubusercontent.com/tp-labs/lab03/master/formatter_ex_lib/formatter_ex.cpp
 wget https://raw.githubusercontent.com/tp-labs/lab03/master/formatter_ex_lib/formatter_ex.h
 ```
 
-Создаём и заполняем файл CMakeLists.txt:
+Создаю и заполняю файл CMakeLists.txt:
 ```
 nano CMakeLists.txt
 ```
@@ -134,7 +135,7 @@ target_include_directories(formatter_ex PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
 target_link_libraries(formatter_ex formatter)
 ```
 
-Проверим корректность заполнения CMakeLists.txt и найдём полный путь до файла:
+Проверяю корректность заполнения CMakeLists.txt и нахожу полный путь до файла:
 
 ```
 cmake -H. -B_build
@@ -143,13 +144,13 @@ cmake -H. -B_build
 ### Part 3
 Аналогично для hello_world_application, solver_lib и проекта solver_application:
 
-Собираем проект:
+Собираю проект:
 
 ```
 cmake -H. -B_build
 cmake --build _build
 ```
-Добавляем файлы и директории, создаём коммит, пушим:
+Добавляю файлы и директории, создаю коммит, пушу:
 
 ```
 git add
