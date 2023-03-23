@@ -1,4 +1,4 @@
-# Install script for directory: /home/elizabeth/projects/lab03/hello_world_application
+# Install script for directory: /home/elizabeth/lab03/hello_world_application
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,8 +44,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/elizabeth/projects/lab03/hello_world_application/formatter_ex/cmake_install.cmake")
-  include("/home/elizabeth/projects/lab03/hello_world_application/formatter/cmake_install.cmake")
+  include("/home/elizabeth/lab03/hello_world_application/formatter_ex/cmake_install.cmake")
+  include("/home/elizabeth/lab03/hello_world_application/formatter/cmake_install.cmake")
 
 endif()
 
@@ -57,5 +57,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/elizabeth/projects/lab03/hello_world_application/_build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/elizabeth/lab03/hello_world_application/_build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

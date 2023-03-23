@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/elizabeth/projects/lab03/hello_world_application
+CMAKE_SOURCE_DIR = /home/elizabeth/lab03/hello_world_application
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/elizabeth/projects/lab03/hello_world_application/_build
+CMAKE_BINARY_DIR = /home/elizabeth/lab03/hello_world_application/_build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/elizabeth/projects/lab03/hello_world_application/_build && $(CMAKE_COMMAND) -E cmake_progress_start /home/elizabeth/projects/lab03/hello_world_application/_build/CMakeFiles /home/elizabeth/projects/lab03/hello_world_application/formatter//CMakeFiles/progress.marks
-	cd /home/elizabeth/projects/lab03/hello_world_application/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/elizabeth/projects/lab03/hello_world_application/formatter/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/elizabeth/projects/lab03/hello_world_application/_build/CMakeFiles 0
+	cd /home/elizabeth/lab03/hello_world_application/_build && $(CMAKE_COMMAND) -E cmake_progress_start /home/elizabeth/lab03/hello_world_application/_build/CMakeFiles /home/elizabeth/lab03/hello_world_application/formatter//CMakeFiles/progress.marks
+	cd /home/elizabeth/lab03/hello_world_application/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/elizabeth/lab03/hello_world_application/formatter/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/elizabeth/lab03/hello_world_application/_build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/elizabeth/projects/lab03/hello_world_application/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/elizabeth/projects/lab03/hello_world_application/formatter/clean
+	cd /home/elizabeth/lab03/hello_world_application/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/elizabeth/lab03/hello_world_application/formatter/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,56 +103,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/elizabeth/projects/lab03/hello_world_application/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/elizabeth/projects/lab03/hello_world_application/formatter/preinstall
+	cd /home/elizabeth/lab03/hello_world_application/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/elizabeth/lab03/hello_world_application/formatter/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/elizabeth/projects/lab03/hello_world_application/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/elizabeth/projects/lab03/hello_world_application/formatter/preinstall
+	cd /home/elizabeth/lab03/hello_world_application/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/elizabeth/lab03/hello_world_application/formatter/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/elizabeth/projects/lab03/hello_world_application/_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/elizabeth/lab03/hello_world_application/_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
-/home/elizabeth/projects/lab03/hello_world_application/formatter/CMakeFiles/formatter.dir/rule:
-	cd /home/elizabeth/projects/lab03/hello_world_application/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/elizabeth/projects/lab03/hello_world_application/formatter/CMakeFiles/formatter.dir/rule
-.PHONY : /home/elizabeth/projects/lab03/hello_world_application/formatter/CMakeFiles/formatter.dir/rule
+/home/elizabeth/lab03/hello_world_application/formatter/CMakeFiles/formatter.dir/rule:
+	cd /home/elizabeth/lab03/hello_world_application/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/elizabeth/lab03/hello_world_application/formatter/CMakeFiles/formatter.dir/rule
+.PHONY : /home/elizabeth/lab03/hello_world_application/formatter/CMakeFiles/formatter.dir/rule
 
 # Convenience name for target.
-formatter: /home/elizabeth/projects/lab03/hello_world_application/formatter/CMakeFiles/formatter.dir/rule
+formatter: /home/elizabeth/lab03/hello_world_application/formatter/CMakeFiles/formatter.dir/rule
 .PHONY : formatter
 
 # fast build rule for target.
 formatter/fast:
-	cd /home/elizabeth/projects/lab03/hello_world_application/_build && $(MAKE) $(MAKESILENT) -f /home/elizabeth/projects/lab03/hello_world_application/formatter/CMakeFiles/formatter.dir/build.make /home/elizabeth/projects/lab03/hello_world_application/formatter/CMakeFiles/formatter.dir/build
+	cd /home/elizabeth/lab03/hello_world_application/_build && $(MAKE) $(MAKESILENT) -f /home/elizabeth/lab03/hello_world_application/formatter/CMakeFiles/formatter.dir/build.make /home/elizabeth/lab03/hello_world_application/formatter/CMakeFiles/formatter.dir/build
 .PHONY : formatter/fast
 
-formatter.o: formatter.cpp.o
-.PHONY : formatter.o
+home/elizabeth/projects/lab03/formatter_lib/formatter.o: home/elizabeth/projects/lab03/formatter_lib/formatter.cpp.o
+.PHONY : home/elizabeth/projects/lab03/formatter_lib/formatter.o
 
 # target to build an object file
-formatter.cpp.o:
-	cd /home/elizabeth/projects/lab03/hello_world_application/_build && $(MAKE) $(MAKESILENT) -f /home/elizabeth/projects/lab03/hello_world_application/formatter/CMakeFiles/formatter.dir/build.make /home/elizabeth/projects/lab03/hello_world_application/formatter/CMakeFiles/formatter.dir/formatter.cpp.o
-.PHONY : formatter.cpp.o
+home/elizabeth/projects/lab03/formatter_lib/formatter.cpp.o:
+	cd /home/elizabeth/lab03/hello_world_application/_build && $(MAKE) $(MAKESILENT) -f /home/elizabeth/lab03/hello_world_application/formatter/CMakeFiles/formatter.dir/build.make /home/elizabeth/lab03/hello_world_application/formatter/CMakeFiles/formatter.dir/home/elizabeth/projects/lab03/formatter_lib/formatter.cpp.o
+.PHONY : home/elizabeth/projects/lab03/formatter_lib/formatter.cpp.o
 
-formatter.i: formatter.cpp.i
-.PHONY : formatter.i
+home/elizabeth/projects/lab03/formatter_lib/formatter.i: home/elizabeth/projects/lab03/formatter_lib/formatter.cpp.i
+.PHONY : home/elizabeth/projects/lab03/formatter_lib/formatter.i
 
 # target to preprocess a source file
-formatter.cpp.i:
-	cd /home/elizabeth/projects/lab03/hello_world_application/_build && $(MAKE) $(MAKESILENT) -f /home/elizabeth/projects/lab03/hello_world_application/formatter/CMakeFiles/formatter.dir/build.make /home/elizabeth/projects/lab03/hello_world_application/formatter/CMakeFiles/formatter.dir/formatter.cpp.i
-.PHONY : formatter.cpp.i
+home/elizabeth/projects/lab03/formatter_lib/formatter.cpp.i:
+	cd /home/elizabeth/lab03/hello_world_application/_build && $(MAKE) $(MAKESILENT) -f /home/elizabeth/lab03/hello_world_application/formatter/CMakeFiles/formatter.dir/build.make /home/elizabeth/lab03/hello_world_application/formatter/CMakeFiles/formatter.dir/home/elizabeth/projects/lab03/formatter_lib/formatter.cpp.i
+.PHONY : home/elizabeth/projects/lab03/formatter_lib/formatter.cpp.i
 
-formatter.s: formatter.cpp.s
-.PHONY : formatter.s
+home/elizabeth/projects/lab03/formatter_lib/formatter.s: home/elizabeth/projects/lab03/formatter_lib/formatter.cpp.s
+.PHONY : home/elizabeth/projects/lab03/formatter_lib/formatter.s
 
 # target to generate assembly for a file
-formatter.cpp.s:
-	cd /home/elizabeth/projects/lab03/hello_world_application/_build && $(MAKE) $(MAKESILENT) -f /home/elizabeth/projects/lab03/hello_world_application/formatter/CMakeFiles/formatter.dir/build.make /home/elizabeth/projects/lab03/hello_world_application/formatter/CMakeFiles/formatter.dir/formatter.cpp.s
-.PHONY : formatter.cpp.s
+home/elizabeth/projects/lab03/formatter_lib/formatter.cpp.s:
+	cd /home/elizabeth/lab03/hello_world_application/_build && $(MAKE) $(MAKESILENT) -f /home/elizabeth/lab03/hello_world_application/formatter/CMakeFiles/formatter.dir/build.make /home/elizabeth/lab03/hello_world_application/formatter/CMakeFiles/formatter.dir/home/elizabeth/projects/lab03/formatter_lib/formatter.cpp.s
+.PHONY : home/elizabeth/projects/lab03/formatter_lib/formatter.cpp.s
 
 # Help Target
 help:
@@ -163,9 +163,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... formatter"
-	@echo "... formatter.o"
-	@echo "... formatter.i"
-	@echo "... formatter.s"
+	@echo "... home/elizabeth/projects/lab03/formatter_lib/formatter.o"
+	@echo "... home/elizabeth/projects/lab03/formatter_lib/formatter.i"
+	@echo "... home/elizabeth/projects/lab03/formatter_lib/formatter.s"
 .PHONY : help
 
 
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/elizabeth/projects/lab03/hello_world_application/_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/elizabeth/lab03/hello_world_application/_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

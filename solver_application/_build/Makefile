@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/elizabeth/projects/lab03/solver_application
+CMAKE_SOURCE_DIR = /home/elizabeth/lab03/solver_application
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/elizabeth/projects/lab03/solver_application/_build
+CMAKE_BINARY_DIR = /home/elizabeth/lab03/solver_application/_build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/elizabeth/projects/lab03/solver_application/_build/CMakeFiles /home/elizabeth/projects/lab03/solver_application/_build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/elizabeth/lab03/solver_application/_build/CMakeFiles /home/elizabeth/lab03/solver_application/_build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/elizabeth/projects/lab03/solver_application/_build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/elizabeth/lab03/solver_application/_build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -139,7 +139,7 @@ solver_lib: cmake_check_build_system
 
 # fast build rule for target.
 solver_lib/fast:
-	$(MAKE) $(MAKESILENT) -f /home/elizabeth/projects/lab03/solver_application/solver_lib/CMakeFiles/solver_lib.dir/build.make /home/elizabeth/projects/lab03/solver_application/solver_lib/CMakeFiles/solver_lib.dir/build
+	$(MAKE) $(MAKESILENT) -f /home/elizabeth/lab03/solver_application/solver_lib/CMakeFiles/solver_lib.dir/build.make /home/elizabeth/lab03/solver_application/solver_lib/CMakeFiles/solver_lib.dir/build
 .PHONY : solver_lib/fast
 
 #=============================================================================
@@ -152,7 +152,7 @@ formatter_ex: cmake_check_build_system
 
 # fast build rule for target.
 formatter_ex/fast:
-	$(MAKE) $(MAKESILENT) -f /home/elizabeth/projects/lab03/solver_application/formatter_ex/CMakeFiles/formatter_ex.dir/build.make /home/elizabeth/projects/lab03/solver_application/formatter_ex/CMakeFiles/formatter_ex.dir/build
+	$(MAKE) $(MAKESILENT) -f /home/elizabeth/lab03/solver_application/formatter_ex/CMakeFiles/formatter_ex.dir/build.make /home/elizabeth/lab03/solver_application/formatter_ex/CMakeFiles/formatter_ex.dir/build
 .PHONY : formatter_ex/fast
 
 #=============================================================================
@@ -165,7 +165,7 @@ formatter: cmake_check_build_system
 
 # fast build rule for target.
 formatter/fast:
-	$(MAKE) $(MAKESILENT) -f /home/elizabeth/projects/lab03/solver_application/formatter/CMakeFiles/formatter.dir/build.make /home/elizabeth/projects/lab03/solver_application/formatter/CMakeFiles/formatter.dir/build
+	$(MAKE) $(MAKESILENT) -f /home/elizabeth/lab03/solver_application/formatter/CMakeFiles/formatter.dir/build.make /home/elizabeth/lab03/solver_application/formatter/CMakeFiles/formatter.dir/build
 .PHONY : formatter/fast
 
 equation.o: equation.cpp.o

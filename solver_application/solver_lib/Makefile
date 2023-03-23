@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/elizabeth/projects/lab03/solver_application
+CMAKE_SOURCE_DIR = /home/elizabeth/lab03/solver_application
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/elizabeth/projects/lab03/solver_application/_build
+CMAKE_BINARY_DIR = /home/elizabeth/lab03/solver_application/_build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/elizabeth/projects/lab03/solver_application/_build && $(CMAKE_COMMAND) -E cmake_progress_start /home/elizabeth/projects/lab03/solver_application/_build/CMakeFiles /home/elizabeth/projects/lab03/solver_application/solver_lib//CMakeFiles/progress.marks
-	cd /home/elizabeth/projects/lab03/solver_application/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/elizabeth/projects/lab03/solver_application/solver_lib/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/elizabeth/projects/lab03/solver_application/_build/CMakeFiles 0
+	cd /home/elizabeth/lab03/solver_application/_build && $(CMAKE_COMMAND) -E cmake_progress_start /home/elizabeth/lab03/solver_application/_build/CMakeFiles /home/elizabeth/lab03/solver_application/solver_lib//CMakeFiles/progress.marks
+	cd /home/elizabeth/lab03/solver_application/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/elizabeth/lab03/solver_application/solver_lib/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/elizabeth/lab03/solver_application/_build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/elizabeth/projects/lab03/solver_application/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/elizabeth/projects/lab03/solver_application/solver_lib/clean
+	cd /home/elizabeth/lab03/solver_application/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/elizabeth/lab03/solver_application/solver_lib/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,56 +103,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/elizabeth/projects/lab03/solver_application/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/elizabeth/projects/lab03/solver_application/solver_lib/preinstall
+	cd /home/elizabeth/lab03/solver_application/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/elizabeth/lab03/solver_application/solver_lib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/elizabeth/projects/lab03/solver_application/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/elizabeth/projects/lab03/solver_application/solver_lib/preinstall
+	cd /home/elizabeth/lab03/solver_application/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/elizabeth/lab03/solver_application/solver_lib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/elizabeth/projects/lab03/solver_application/_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/elizabeth/lab03/solver_application/_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
-/home/elizabeth/projects/lab03/solver_application/solver_lib/CMakeFiles/solver_lib.dir/rule:
-	cd /home/elizabeth/projects/lab03/solver_application/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/elizabeth/projects/lab03/solver_application/solver_lib/CMakeFiles/solver_lib.dir/rule
-.PHONY : /home/elizabeth/projects/lab03/solver_application/solver_lib/CMakeFiles/solver_lib.dir/rule
+/home/elizabeth/lab03/solver_application/solver_lib/CMakeFiles/solver_lib.dir/rule:
+	cd /home/elizabeth/lab03/solver_application/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/elizabeth/lab03/solver_application/solver_lib/CMakeFiles/solver_lib.dir/rule
+.PHONY : /home/elizabeth/lab03/solver_application/solver_lib/CMakeFiles/solver_lib.dir/rule
 
 # Convenience name for target.
-solver_lib: /home/elizabeth/projects/lab03/solver_application/solver_lib/CMakeFiles/solver_lib.dir/rule
+solver_lib: /home/elizabeth/lab03/solver_application/solver_lib/CMakeFiles/solver_lib.dir/rule
 .PHONY : solver_lib
 
 # fast build rule for target.
 solver_lib/fast:
-	cd /home/elizabeth/projects/lab03/solver_application/_build && $(MAKE) $(MAKESILENT) -f /home/elizabeth/projects/lab03/solver_application/solver_lib/CMakeFiles/solver_lib.dir/build.make /home/elizabeth/projects/lab03/solver_application/solver_lib/CMakeFiles/solver_lib.dir/build
+	cd /home/elizabeth/lab03/solver_application/_build && $(MAKE) $(MAKESILENT) -f /home/elizabeth/lab03/solver_application/solver_lib/CMakeFiles/solver_lib.dir/build.make /home/elizabeth/lab03/solver_application/solver_lib/CMakeFiles/solver_lib.dir/build
 .PHONY : solver_lib/fast
 
-solver.o: solver.cpp.o
-.PHONY : solver.o
+home/elizabeth/projects/lab03/solver_lib/solver.o: home/elizabeth/projects/lab03/solver_lib/solver.cpp.o
+.PHONY : home/elizabeth/projects/lab03/solver_lib/solver.o
 
 # target to build an object file
-solver.cpp.o:
-	cd /home/elizabeth/projects/lab03/solver_application/_build && $(MAKE) $(MAKESILENT) -f /home/elizabeth/projects/lab03/solver_application/solver_lib/CMakeFiles/solver_lib.dir/build.make /home/elizabeth/projects/lab03/solver_application/solver_lib/CMakeFiles/solver_lib.dir/solver.cpp.o
-.PHONY : solver.cpp.o
+home/elizabeth/projects/lab03/solver_lib/solver.cpp.o:
+	cd /home/elizabeth/lab03/solver_application/_build && $(MAKE) $(MAKESILENT) -f /home/elizabeth/lab03/solver_application/solver_lib/CMakeFiles/solver_lib.dir/build.make /home/elizabeth/lab03/solver_application/solver_lib/CMakeFiles/solver_lib.dir/home/elizabeth/projects/lab03/solver_lib/solver.cpp.o
+.PHONY : home/elizabeth/projects/lab03/solver_lib/solver.cpp.o
 
-solver.i: solver.cpp.i
-.PHONY : solver.i
+home/elizabeth/projects/lab03/solver_lib/solver.i: home/elizabeth/projects/lab03/solver_lib/solver.cpp.i
+.PHONY : home/elizabeth/projects/lab03/solver_lib/solver.i
 
 # target to preprocess a source file
-solver.cpp.i:
-	cd /home/elizabeth/projects/lab03/solver_application/_build && $(MAKE) $(MAKESILENT) -f /home/elizabeth/projects/lab03/solver_application/solver_lib/CMakeFiles/solver_lib.dir/build.make /home/elizabeth/projects/lab03/solver_application/solver_lib/CMakeFiles/solver_lib.dir/solver.cpp.i
-.PHONY : solver.cpp.i
+home/elizabeth/projects/lab03/solver_lib/solver.cpp.i:
+	cd /home/elizabeth/lab03/solver_application/_build && $(MAKE) $(MAKESILENT) -f /home/elizabeth/lab03/solver_application/solver_lib/CMakeFiles/solver_lib.dir/build.make /home/elizabeth/lab03/solver_application/solver_lib/CMakeFiles/solver_lib.dir/home/elizabeth/projects/lab03/solver_lib/solver.cpp.i
+.PHONY : home/elizabeth/projects/lab03/solver_lib/solver.cpp.i
 
-solver.s: solver.cpp.s
-.PHONY : solver.s
+home/elizabeth/projects/lab03/solver_lib/solver.s: home/elizabeth/projects/lab03/solver_lib/solver.cpp.s
+.PHONY : home/elizabeth/projects/lab03/solver_lib/solver.s
 
 # target to generate assembly for a file
-solver.cpp.s:
-	cd /home/elizabeth/projects/lab03/solver_application/_build && $(MAKE) $(MAKESILENT) -f /home/elizabeth/projects/lab03/solver_application/solver_lib/CMakeFiles/solver_lib.dir/build.make /home/elizabeth/projects/lab03/solver_application/solver_lib/CMakeFiles/solver_lib.dir/solver.cpp.s
-.PHONY : solver.cpp.s
+home/elizabeth/projects/lab03/solver_lib/solver.cpp.s:
+	cd /home/elizabeth/lab03/solver_application/_build && $(MAKE) $(MAKESILENT) -f /home/elizabeth/lab03/solver_application/solver_lib/CMakeFiles/solver_lib.dir/build.make /home/elizabeth/lab03/solver_application/solver_lib/CMakeFiles/solver_lib.dir/home/elizabeth/projects/lab03/solver_lib/solver.cpp.s
+.PHONY : home/elizabeth/projects/lab03/solver_lib/solver.cpp.s
 
 # Help Target
 help:
@@ -163,9 +163,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... solver_lib"
-	@echo "... solver.o"
-	@echo "... solver.i"
-	@echo "... solver.s"
+	@echo "... home/elizabeth/projects/lab03/solver_lib/solver.o"
+	@echo "... home/elizabeth/projects/lab03/solver_lib/solver.i"
+	@echo "... home/elizabeth/projects/lab03/solver_lib/solver.s"
 .PHONY : help
 
 
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/elizabeth/projects/lab03/solver_application/_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/elizabeth/lab03/solver_application/_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/elizabeth/projects/lab03/solver_application
+CMAKE_SOURCE_DIR = /home/elizabeth/lab03/solver_application
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/elizabeth/projects/lab03/solver_application/_build
+CMAKE_BINARY_DIR = /home/elizabeth/lab03/solver_application/_build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/elizabeth/projects/lab03/solver_application/_build && $(CMAKE_COMMAND) -E cmake_progress_start /home/elizabeth/projects/lab03/solver_application/_build/CMakeFiles /home/elizabeth/projects/lab03/solver_application/formatter_ex//CMakeFiles/progress.marks
-	cd /home/elizabeth/projects/lab03/solver_application/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/elizabeth/projects/lab03/solver_application/formatter_ex/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/elizabeth/projects/lab03/solver_application/_build/CMakeFiles 0
+	cd /home/elizabeth/lab03/solver_application/_build && $(CMAKE_COMMAND) -E cmake_progress_start /home/elizabeth/lab03/solver_application/_build/CMakeFiles /home/elizabeth/lab03/solver_application/formatter_ex//CMakeFiles/progress.marks
+	cd /home/elizabeth/lab03/solver_application/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/elizabeth/lab03/solver_application/formatter_ex/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/elizabeth/lab03/solver_application/_build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/elizabeth/projects/lab03/solver_application/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/elizabeth/projects/lab03/solver_application/formatter_ex/clean
+	cd /home/elizabeth/lab03/solver_application/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/elizabeth/lab03/solver_application/formatter_ex/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,56 +103,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/elizabeth/projects/lab03/solver_application/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/elizabeth/projects/lab03/solver_application/formatter_ex/preinstall
+	cd /home/elizabeth/lab03/solver_application/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/elizabeth/lab03/solver_application/formatter_ex/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/elizabeth/projects/lab03/solver_application/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/elizabeth/projects/lab03/solver_application/formatter_ex/preinstall
+	cd /home/elizabeth/lab03/solver_application/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/elizabeth/lab03/solver_application/formatter_ex/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/elizabeth/projects/lab03/solver_application/_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/elizabeth/lab03/solver_application/_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
-/home/elizabeth/projects/lab03/solver_application/formatter_ex/CMakeFiles/formatter_ex.dir/rule:
-	cd /home/elizabeth/projects/lab03/solver_application/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/elizabeth/projects/lab03/solver_application/formatter_ex/CMakeFiles/formatter_ex.dir/rule
-.PHONY : /home/elizabeth/projects/lab03/solver_application/formatter_ex/CMakeFiles/formatter_ex.dir/rule
+/home/elizabeth/lab03/solver_application/formatter_ex/CMakeFiles/formatter_ex.dir/rule:
+	cd /home/elizabeth/lab03/solver_application/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/elizabeth/lab03/solver_application/formatter_ex/CMakeFiles/formatter_ex.dir/rule
+.PHONY : /home/elizabeth/lab03/solver_application/formatter_ex/CMakeFiles/formatter_ex.dir/rule
 
 # Convenience name for target.
-formatter_ex: /home/elizabeth/projects/lab03/solver_application/formatter_ex/CMakeFiles/formatter_ex.dir/rule
+formatter_ex: /home/elizabeth/lab03/solver_application/formatter_ex/CMakeFiles/formatter_ex.dir/rule
 .PHONY : formatter_ex
 
 # fast build rule for target.
 formatter_ex/fast:
-	cd /home/elizabeth/projects/lab03/solver_application/_build && $(MAKE) $(MAKESILENT) -f /home/elizabeth/projects/lab03/solver_application/formatter_ex/CMakeFiles/formatter_ex.dir/build.make /home/elizabeth/projects/lab03/solver_application/formatter_ex/CMakeFiles/formatter_ex.dir/build
+	cd /home/elizabeth/lab03/solver_application/_build && $(MAKE) $(MAKESILENT) -f /home/elizabeth/lab03/solver_application/formatter_ex/CMakeFiles/formatter_ex.dir/build.make /home/elizabeth/lab03/solver_application/formatter_ex/CMakeFiles/formatter_ex.dir/build
 .PHONY : formatter_ex/fast
 
-formatter_ex.o: formatter_ex.cpp.o
-.PHONY : formatter_ex.o
+home/elizabeth/projects/lab03/formatter_ex_lib/formatter_ex.o: home/elizabeth/projects/lab03/formatter_ex_lib/formatter_ex.cpp.o
+.PHONY : home/elizabeth/projects/lab03/formatter_ex_lib/formatter_ex.o
 
 # target to build an object file
-formatter_ex.cpp.o:
-	cd /home/elizabeth/projects/lab03/solver_application/_build && $(MAKE) $(MAKESILENT) -f /home/elizabeth/projects/lab03/solver_application/formatter_ex/CMakeFiles/formatter_ex.dir/build.make /home/elizabeth/projects/lab03/solver_application/formatter_ex/CMakeFiles/formatter_ex.dir/formatter_ex.cpp.o
-.PHONY : formatter_ex.cpp.o
+home/elizabeth/projects/lab03/formatter_ex_lib/formatter_ex.cpp.o:
+	cd /home/elizabeth/lab03/solver_application/_build && $(MAKE) $(MAKESILENT) -f /home/elizabeth/lab03/solver_application/formatter_ex/CMakeFiles/formatter_ex.dir/build.make /home/elizabeth/lab03/solver_application/formatter_ex/CMakeFiles/formatter_ex.dir/home/elizabeth/projects/lab03/formatter_ex_lib/formatter_ex.cpp.o
+.PHONY : home/elizabeth/projects/lab03/formatter_ex_lib/formatter_ex.cpp.o
 
-formatter_ex.i: formatter_ex.cpp.i
-.PHONY : formatter_ex.i
+home/elizabeth/projects/lab03/formatter_ex_lib/formatter_ex.i: home/elizabeth/projects/lab03/formatter_ex_lib/formatter_ex.cpp.i
+.PHONY : home/elizabeth/projects/lab03/formatter_ex_lib/formatter_ex.i
 
 # target to preprocess a source file
-formatter_ex.cpp.i:
-	cd /home/elizabeth/projects/lab03/solver_application/_build && $(MAKE) $(MAKESILENT) -f /home/elizabeth/projects/lab03/solver_application/formatter_ex/CMakeFiles/formatter_ex.dir/build.make /home/elizabeth/projects/lab03/solver_application/formatter_ex/CMakeFiles/formatter_ex.dir/formatter_ex.cpp.i
-.PHONY : formatter_ex.cpp.i
+home/elizabeth/projects/lab03/formatter_ex_lib/formatter_ex.cpp.i:
+	cd /home/elizabeth/lab03/solver_application/_build && $(MAKE) $(MAKESILENT) -f /home/elizabeth/lab03/solver_application/formatter_ex/CMakeFiles/formatter_ex.dir/build.make /home/elizabeth/lab03/solver_application/formatter_ex/CMakeFiles/formatter_ex.dir/home/elizabeth/projects/lab03/formatter_ex_lib/formatter_ex.cpp.i
+.PHONY : home/elizabeth/projects/lab03/formatter_ex_lib/formatter_ex.cpp.i
 
-formatter_ex.s: formatter_ex.cpp.s
-.PHONY : formatter_ex.s
+home/elizabeth/projects/lab03/formatter_ex_lib/formatter_ex.s: home/elizabeth/projects/lab03/formatter_ex_lib/formatter_ex.cpp.s
+.PHONY : home/elizabeth/projects/lab03/formatter_ex_lib/formatter_ex.s
 
 # target to generate assembly for a file
-formatter_ex.cpp.s:
-	cd /home/elizabeth/projects/lab03/solver_application/_build && $(MAKE) $(MAKESILENT) -f /home/elizabeth/projects/lab03/solver_application/formatter_ex/CMakeFiles/formatter_ex.dir/build.make /home/elizabeth/projects/lab03/solver_application/formatter_ex/CMakeFiles/formatter_ex.dir/formatter_ex.cpp.s
-.PHONY : formatter_ex.cpp.s
+home/elizabeth/projects/lab03/formatter_ex_lib/formatter_ex.cpp.s:
+	cd /home/elizabeth/lab03/solver_application/_build && $(MAKE) $(MAKESILENT) -f /home/elizabeth/lab03/solver_application/formatter_ex/CMakeFiles/formatter_ex.dir/build.make /home/elizabeth/lab03/solver_application/formatter_ex/CMakeFiles/formatter_ex.dir/home/elizabeth/projects/lab03/formatter_ex_lib/formatter_ex.cpp.s
+.PHONY : home/elizabeth/projects/lab03/formatter_ex_lib/formatter_ex.cpp.s
 
 # Help Target
 help:
@@ -163,9 +163,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... formatter_ex"
-	@echo "... formatter_ex.o"
-	@echo "... formatter_ex.i"
-	@echo "... formatter_ex.s"
+	@echo "... home/elizabeth/projects/lab03/formatter_ex_lib/formatter_ex.o"
+	@echo "... home/elizabeth/projects/lab03/formatter_ex_lib/formatter_ex.i"
+	@echo "... home/elizabeth/projects/lab03/formatter_ex_lib/formatter_ex.s"
 .PHONY : help
 
 
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/elizabeth/projects/lab03/solver_application/_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/elizabeth/lab03/solver_application/_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

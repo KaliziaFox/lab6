@@ -7,9 +7,9 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/home/elizabeth/projects/lab03/formatter_ex_lib/CMakeLists.txt"
-  "/home/elizabeth/projects/lab03/formatter_lib/CMakeLists.txt"
-  "/home/elizabeth/projects/lab03/hello_world_application/CMakeLists.txt"
+  "/home/elizabeth/lab03/formatter_ex_lib/CMakeLists.txt"
+  "/home/elizabeth/lab03/formatter_lib/CMakeLists.txt"
+  "/home/elizabeth/lab03/hello_world_application/CMakeLists.txt"
   "CMakeFiles/3.25.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.25.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.25.1/CMakeSystem.cmake"
@@ -121,13 +121,13 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/3.25.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.25.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "/home/elizabeth/projects/lab03/hello_world_application/formatter_ex/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "/home/elizabeth/projects/lab03/hello_world_application/formatter/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "/home/elizabeth/lab03/hello_world_application/formatter_ex/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "/home/elizabeth/lab03/hello_world_application/formatter/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/source.dir/DependInfo.cmake"
-  "/home/elizabeth/projects/lab03/hello_world_application/formatter_ex/CMakeFiles/formatter_ex.dir/DependInfo.cmake"
-  "/home/elizabeth/projects/lab03/hello_world_application/formatter/CMakeFiles/formatter.dir/DependInfo.cmake"
+  "/home/elizabeth/lab03/hello_world_application/formatter_ex/CMakeFiles/formatter_ex.dir/DependInfo.cmake"
+  "/home/elizabeth/lab03/hello_world_application/formatter/CMakeFiles/formatter.dir/DependInfo.cmake"
   )

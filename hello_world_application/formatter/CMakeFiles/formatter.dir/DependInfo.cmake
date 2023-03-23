@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/elizabeth/projects/lab03/formatter_lib/formatter.cpp" "/home/elizabeth/projects/lab03/hello_world_application/formatter/CMakeFiles/formatter.dir/formatter.cpp.o" "gcc" "/home/elizabeth/projects/lab03/hello_world_application/formatter/CMakeFiles/formatter.dir/formatter.cpp.o.d"
+  "/home/elizabeth/projects/lab03/formatter_lib/formatter.cpp" "/home/elizabeth/lab03/hello_world_application/formatter/CMakeFiles/formatter.dir/home/elizabeth/projects/lab03/formatter_lib/formatter.cpp.o" "gcc" "/home/elizabeth/lab03/hello_world_application/formatter/CMakeFiles/formatter.dir/home/elizabeth/projects/lab03/formatter_lib/formatter.cpp.o.d"
   )
 
 # Targets to which this target links.
