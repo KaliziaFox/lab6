@@ -4,8 +4,8 @@
 Создаю репозиторий на GitHub с названием lab03
 Инициализирую переменные:
 ```
-export GITHUB_USERNAME=jezzixxx
-export GITHUB_EMAIL=pkapav02@gmail.com
+export GITHUB_USERNAME=KaliziaFox
+export GITHUB_EMAIL=kalugina_007@yandex.ru
 export GITHUB_TOKEN=<сгенирированный_токен>
 ```
 
