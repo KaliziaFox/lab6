@@ -1,0 +1,24 @@
+name: MacOS
+on:
+ push:
+   tags:
+     - y**
+
+jobs:
+  build_packages_MacOS:
+      runs-on: macos-latest
+      steps:
+      - uses: actions/checkout@v3
+
+      -  name: Build DMG
+         run: |
+           mkdir build && cd build
+           cmake -DGENERATOR=BIN ..
+           cmake --build .
+           cpack -G DragNDrop
+      - name: Release
+        uses: ncipollo/release-action@v1.10.0
+
+        with:
+          artifacts: "build/*.dmg"
+          token: ${{ secrets.TOKEN }}
